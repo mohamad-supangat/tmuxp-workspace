@@ -1,0 +1,10 @@
+session_name: Digital Signature
+start_directory: /home/deve/projects/digital-sign
+windows:
+  - layout: main-vertical
+    panes:
+      - nvim
+  - layout: main-vertical
+    panes:
+      - php artisan serve
+      - bun run dev

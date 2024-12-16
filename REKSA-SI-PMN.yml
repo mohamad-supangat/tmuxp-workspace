@@ -1,0 +1,8 @@
+session_name: Reksa SI-PMN
+start_directory: /home/deve/projects/Reksa/si-pmn/
+windows:
+  - layout: main-vertical
+    panes:
+      - nvim
+      - php artisan serve
+      - bun run dev

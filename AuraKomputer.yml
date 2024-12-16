@@ -1,0 +1,7 @@
+session_name: AuraKomputer
+start_directory: /home/deve/projects/aurakomputer.gitlab.io/
+windows:
+  - layout: main-vertical
+    name: Editor
+    panes:
+      - nvim

@@ -1,0 +1,7 @@
+session_name: Reksa Kerjasama Badan Usaha
+start_directory: /home/deve/projects/Reksa/kerjasama-badan-usaha/
+windows:
+  - layout: main-vertical
+    panes:
+      - nvim
+      - php artisan serve

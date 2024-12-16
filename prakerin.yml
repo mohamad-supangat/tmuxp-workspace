@@ -1,0 +1,20 @@
+session_name: Prakerin
+start_directory: /home/deve/projects/prakerin
+windows:
+  - layout: main-vertical
+    panes:
+      - nvim
+    start_directory: /home/deve/projects/prakerin/prakerin-laravel-api
+    window_name: laravel
+  - layout: main-vertical
+    panes:
+      - nvim
+      - sleep 5 && quasar dev
+    start_directory: /home/deve/projects/prakerin/prakerin-quasar-frontend
+    window_name: quasar
+  - layout: main-vertical
+    panes:
+      - php artisan serve
+      - adminer.sh
+    start_directory: /home/deve/projects/prakerin/prakerin-laravel-api
+    window_name: server

@@ -1,0 +1,10 @@
+session_name: License Manager
+start_directory: /home/deve/projects/license-manager/
+windows:
+  - layout: main-vertical
+    panes:
+      - nvim
+  - layout: main-vertical
+    panes:
+      - php artisan serve
+      - bun run dev

@@ -1,0 +1,10 @@
+session_name: Kasir
+start_directory: /home/deve/projects/kasir/
+windows:
+  - layout: main-vertical
+    start_directory: /home/deve/projects/kasir/server/
+    name: Editor
+    panes:
+      - nvim
+      - php artisan serve
+      - bun run dev

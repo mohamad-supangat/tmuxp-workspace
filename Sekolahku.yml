@@ -1,0 +1,12 @@
+session_name: Sekolahku
+start_directory: /home/deve/projects/SekolahCRM/aura-erp/
+windows:
+  - layout: main-vertical
+    panes:
+      - nvim
+    window_name: Editor
+  - layout: main-vertical
+    panes:
+      - bun run dev
+      - php artisan serve
+    window_name: Runner

@@ -1,0 +1,6 @@
+session_name: Reksa Pendapatan Lain - Lain
+start_directory: /home/deve/projects/Reksa/pendapatan-lain-lain
+windows:
+  - layout: main-vertical
+    panes:
+      - nvim

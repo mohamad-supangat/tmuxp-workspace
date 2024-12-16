@@ -1,0 +1,12 @@
+session_name: Tiwi - Backend
+start_directory: /home/deve/projects/tiwi/Backend/
+windows:
+  - layout: main-vertical
+    name: Editor
+    panes:
+      - nvim
+  - layout: main-vertical
+    name: Runner
+    panes:
+      - php artisan serve
+      - bun run dev
