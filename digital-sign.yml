@@ -7,4 +7,4 @@ windows:
   - layout: main-vertical
     panes:
       - php artisan serve
-      - bun run dev
+      - pnpm run dev

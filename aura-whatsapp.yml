@@ -1,0 +1,8 @@
+session_name: WhatsAppServer
+start_directory: /home/deve/projects/aura-whatsapp/
+windows:
+  - layout: main-vertical
+    name: Editor
+    panes:
+      - nvim
+      - pnpm dev

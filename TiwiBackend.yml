@@ -9,4 +9,4 @@ windows:
     name: Runner
     panes:
       - php artisan serve
-      - bun run dev
+      - pnpm run dev

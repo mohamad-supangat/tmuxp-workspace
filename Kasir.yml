@@ -7,4 +7,4 @@ windows:
     panes:
       - nvim
       - php artisan serve
-      - bun run dev
+      - pnpm run dev
