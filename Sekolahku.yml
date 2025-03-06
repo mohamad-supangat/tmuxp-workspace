@@ -7,6 +7,6 @@ windows:
     window_name: Editor
   - layout: main-vertical
     panes:
-      - pnpm run dev
+      - bun run dev
       - php artisan serve
     window_name: Runner

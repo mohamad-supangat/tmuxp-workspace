@@ -1,0 +1,7 @@
+session_name: Binance
+start_directory: /home/deve/projects/binance-spot-bot/
+windows:
+  - layout: main-vertical
+    name: Editor
+    panes:
+      - nvim

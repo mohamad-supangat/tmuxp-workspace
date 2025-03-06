@@ -5,4 +5,4 @@ windows:
     name: Editor
     panes:
       - nvim
-      - pnpm dev
+      - nodemon.sh bun dev
