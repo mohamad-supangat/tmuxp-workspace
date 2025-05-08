@@ -1,0 +1,14 @@
+session_name: "Transaksi Keuangan"
+start_directory: "~/projects/reksa/transaksi-keuangan/"
+
+windows:
+  - layout: main-vertical
+    options:
+      main-pane-width: 85%
+    panes:
+      - shell_command:
+          - nvim
+      - shell_command:
+          - pnpm run dev
+    window_name: Editor
+

@@ -1,0 +1,16 @@
+session_name: Tiwi
+start_directory: "~/projects/asd/tiwi-backend"
+
+windows:
+  - layout: main-vertical
+    panes:
+      - shell_command:
+          - nvim
+    window_name: Editor
+  - layout: main-vertical
+    panes:
+      - shell_command:
+          - pnpm run dev
+      - shell_command:
+          - art serve
+    window_name: Runner

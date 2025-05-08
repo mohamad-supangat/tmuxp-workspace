@@ -1,0 +1,18 @@
+session_name: Sekolahku
+start_directory: "~/projects/asd/sekolahku/aura-erp/"
+
+windows:
+  - layout: main-vertical
+    panes:
+      - shell_command:
+          - nvim
+    window_name: Editor
+  - layout: main-vertical
+    panes:
+      - shell_command:
+          - systemctl restart docker
+          - docker start mariadb-db-1 postgresq-adminer-1
+          - pnpm run dev
+      - shell_command:
+          - art serve
+    window_name: Runner

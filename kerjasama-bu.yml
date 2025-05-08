@@ -1,0 +1,14 @@
+session_name: Kerjasama Badan Usaha
+start_directory: "~/projects/reksa/kerjasama-badan-usaha/"
+
+windows:
+  - layout: main-vertical
+    panes:
+      - shell_command:
+          - nvim
+    window_name: Editor
+  - layout: main-vertical
+    panes:
+      - shell_command:
+          - PHP_CLI_SERVER_WORKERS=20 php artisan serve
+    window_name: Runner

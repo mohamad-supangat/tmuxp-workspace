@@ -1,0 +1,14 @@
+session_name: "KPU / USO"
+start_directory: "~/projects/reksa/e-pnbp/"
+
+windows:
+  - layout: main-vertical
+    panes:
+      - shell_command:
+          - nvim
+    window_name: Editor
+  - layout: main-vertical
+    panes:
+      - shell_command:
+          - PHP_CLI_SERVER_WORKERS=20 php7.4-docker.sh php artisan serve --host=0.0.0.0
+    window_name: Runner

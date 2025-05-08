@@ -1,0 +1,22 @@
+session_name: SI-PMN
+start_directory: "~/projects/reksa/si-pmn/"
+
+windows:
+  - layout: main-vertical
+    panes:
+      - shell_command:
+          - nvim
+    window_name: Editor
+  - layout: main-vertical
+    panes:
+      - shell_command:
+          - tail --follow storage/logs/laravel.log
+      - shell_command:
+          # - systemctl restart docker
+          # - docker start postgresq-db-1 postgresq-adminer-1
+          - pnpm run dev
+      - shell_command:
+          - PHP_CLI_SERVER_WORKERS=20 php artisan serve
+      - shell_command:
+          - PHP_CLI_SERVER_WORKERS=20 php artisan queue:work
+    window_name: Runner

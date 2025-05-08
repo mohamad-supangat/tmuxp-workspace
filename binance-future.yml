@@ -1,0 +1,11 @@
+session_name: "Crypto Binance Future"
+start_directory: "~/projects/asd/binance-future-bot/"
+
+windows:
+  - layout: main-vertical
+    options:
+      main-pane-width: 90%
+    panes:
+      - shell_command:
+          - nvim
+    window_name: Editor

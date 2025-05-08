@@ -1,0 +1,5 @@
+session_name: "Eticketing"
+start_directory: "~/projects/reksa/etiketing/"
+
+windows:
+  - layout: main-vertical

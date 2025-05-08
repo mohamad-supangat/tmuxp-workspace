@@ -1,0 +1,14 @@
+session_name: Pendapatan Lain-Lain
+start_directory: "~/projects/reksa/pendapatan-lain-lain/"
+
+windows:
+  - layout: main-vertical
+    panes:
+      - shell_command:
+          - nvim
+    window_name: Editor
+  - layout: main-vertical
+    panes:
+      - shell_command:
+         - php artisan serve --host=0.0.0.0
+    window_name: Runner

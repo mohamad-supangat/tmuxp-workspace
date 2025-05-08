@@ -1,0 +1,5 @@
+session_name: "Aloha"
+start_directory: "~/projects/reksa/alloha/"
+
+windows:
+  - layout: main-vertical

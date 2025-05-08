@@ -1,0 +1,19 @@
+session_name: "Digital Signature"
+start_directory: "~/projects/asd/digital-sign/"
+
+windows:
+  - layout: main-vertical
+    options:
+      main-pane-width: 90%
+    panes:
+      - shell_command:
+          - nvim
+    window_name: Editor
+
+  - layout: main-vertical
+    panes:
+      - shell_command:
+          - pnpm run dev
+      - shell_command:
+          - art serve
+    window_name: Runner

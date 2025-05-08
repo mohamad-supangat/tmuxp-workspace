@@ -1,0 +1,13 @@
+session_name: "WhatsApp Server"
+start_directory: "~/projects/asd/wa-server/"
+
+windows:
+  - layout: main-vertical
+    options:
+      main-pane-width: 85%
+    panes:
+      - shell_command:
+          - nvim
+      - shell_command:
+          - nodemon.sh bun run dev
+    window_name: Editor
