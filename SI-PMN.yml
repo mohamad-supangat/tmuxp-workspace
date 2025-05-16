@@ -1,5 +1,5 @@
 session_name: SI-PMN
-start_directory: "~/projects/reksa/si-pmn/"
+start_directory: "~/projects/reksa/sip-pmn/"
 
 windows:
   - layout: main-vertical

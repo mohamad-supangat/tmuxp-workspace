@@ -1,0 +1,8 @@
+session_name: "Mariadb"
+start_directory: "~/projects/docker-composes/mariadb/"
+
+windows:
+  - layout: main-vertical
+    panes:
+      - shell_command:
+          - docker start mariadb-db-1 postgresql-adminer-1

@@ -1,0 +1,5 @@
+session_name: "PHP Docker builder"
+start_directory: "~/projects/php/"
+
+windows:
+  - layout: main-vertical

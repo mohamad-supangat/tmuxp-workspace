@@ -10,5 +10,5 @@ windows:
   - layout: main-vertical
     panes:
       - shell_command:
-          - PHP_CLI_SERVER_WORKERS=20 php7.4-docker.sh php artisan serve --host=0.0.0.0
+          - PHP_CLI_SERVER_WORKERS=20 ~/php/7.4/cli.sh php artisan serve --host=0.0.0.0
     window_name: Runner

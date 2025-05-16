@@ -1,0 +1,9 @@
+session_name: "WIKI"
+start_directory: "~/projects/reksa/wiki/"
+
+windows:
+  - layout: main-vertical
+    panes:
+      - shell_command:
+          - nvim
+    window_name: Editor

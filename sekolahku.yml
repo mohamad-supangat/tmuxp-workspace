@@ -10,9 +10,8 @@ windows:
   - layout: main-vertical
     panes:
       - shell_command:
-          - systemctl restart docker
           - docker start mariadb-db-1 postgresq-adminer-1
-          - pnpm run dev
+          - bun run dev
       - shell_command:
-          - art serve
+        - frankenphp run
     window_name: Runner

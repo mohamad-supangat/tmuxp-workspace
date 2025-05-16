@@ -1,0 +1,7 @@
+session_name: "Core"
+start_directory: "~/"
+windows:
+  - panes:
+      - shell_command:
+          - aerc
+    window_name: Email Client

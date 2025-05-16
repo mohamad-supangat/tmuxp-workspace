@@ -1,19 +1,14 @@
-session_name: "Converter Penjualan"
+session_name: Converter Penjualan
 start_directory: "~/projects/asd/feni/"
 
 windows:
   - layout: main-vertical
-    options:
-      main-pane-width: 90%
     panes:
       - shell_command:
           - nvim
     window_name: Editor
-
   - layout: main-vertical
     panes:
-      - shell_command:
-          - pnpm run dev
-      - shell_command:
-          - art serve
+      - shell_command: frankenphp php-server --root=public -d feni.localhost
+      - shell_command: bun dev
     window_name: Runner

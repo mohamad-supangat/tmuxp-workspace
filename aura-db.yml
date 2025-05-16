@@ -1,0 +1,7 @@
+session_name: "Aura DB"
+start_directory: "~/projects/asd/db/"
+windows:
+  - panes:
+      - shell_command:
+          - nvim
+    window_name: EDITOR
