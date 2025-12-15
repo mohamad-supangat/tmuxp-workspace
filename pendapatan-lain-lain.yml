@@ -10,5 +10,5 @@ windows:
   - layout: main-vertical
     panes:
       - shell_command:
-         - php artisan serve --host=0.0.0.0
+         - frankenphp php-server --root=public -d pendapatan-lain-lain.localhost
     window_name: Runner

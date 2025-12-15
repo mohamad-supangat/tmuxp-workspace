@@ -9,6 +9,6 @@ windows:
     window_name: Editor
   - layout: main-vertical
     panes:
-      - shell_command: frankenphp php-server --root=public -d feni.localhost
+      - shell_command: php artisan serve
       - shell_command: bun dev
     window_name: Runner

@@ -1,0 +1,12 @@
+session_name:  BAKTI Service Information System 
+start_directory: "/home/deve/projects/reksa/bakti-services-integration"
+windows:
+  - layout: main-vertical
+    panes:
+      - shell_command:
+          - nvim
+      - shell_command:
+         - frankenphp php-server -r public -d layanan.localhost
+      - shell_command:
+         - bun dev
+    window_name: Editor

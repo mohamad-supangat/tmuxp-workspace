@@ -1,5 +1,5 @@
-session_name: "WhatsApp Server"
-start_directory: "~/projects/asd/wa-server/"
+session_name: "Aura WhatsApp Gateway"
+start_directory: "~/projects/asd/aura-wa-gateway/"
 
 windows:
   - layout: main-vertical
@@ -9,5 +9,5 @@ windows:
       - shell_command:
           - nvim
       - shell_command:
-          - nodemon.sh bun run dev
+          - bun dev
     window_name: Editor

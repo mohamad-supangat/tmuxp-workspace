@@ -13,5 +13,6 @@ windows:
           - docker start mariadb-db-1 postgresq-adminer-1
           - bun run dev
       - shell_command:
-        - frankenphp run
+        # - php artisan serve
+          - frankenphp run
     window_name: Runner

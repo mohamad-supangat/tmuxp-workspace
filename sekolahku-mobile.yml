@@ -1,0 +1,19 @@
+session_name: Sekolahku
+start_directory: "~/projects/asd/sekolahku/aura-erp/"
+
+windows:
+  - layout: main-vertical
+    panes:
+      - shell_command:
+          - sleep 2 && nvim
+      - shell_command:
+          - frankenphp php-server -r public
+    window_name: API
+  - layout: main-vertical
+    start_directory: "~/projects/asd/sekolahku/sekolahku-mobile/"
+    panes:
+      - shell_command:
+        - sleep 2 && nvim
+      - shell_command:
+        - bun dev
+    window_name: Frontend

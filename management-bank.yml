@@ -11,4 +11,6 @@ windows:
     panes:
       - shell_command:
          - frankenphp php-server -r public -d bank.localhost
+      - shell_command:
+         - bun dev
     window_name: Runner
