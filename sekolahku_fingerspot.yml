@@ -20,5 +20,5 @@ windows:
       - shell_command:
           - frankenphp run
       - shell_command:
-          - frankenphp run -d fingerspot.localhost -r ~/projects/asd/sekolahku/sekolahku_fingeerspot_connector/public
+          - frankenphp php-server -d fingerspot.localhost -r ~/projects/asd/sekolahku/sekolahku_fingeerspot_connector/public
     window_name: Runner
