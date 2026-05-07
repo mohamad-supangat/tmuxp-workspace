@@ -10,5 +10,6 @@ windows:
   - layout: main-vertical
     panes:
       - shell_command:
-          - PHP_CLI_SERVER_WORKERS=20 ~/php/7.4/cli.sh php artisan serve --host=0.0.0.0
+          # - PHP_CLI_SERVER_WORKERS=20 ~/php/7.4/cli.sh php artisan serve --host=0.0.0.0
+         - frankenphp php-server -r public -d uso.localhost
     window_name: Runner

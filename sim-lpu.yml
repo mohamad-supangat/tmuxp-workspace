@@ -1,0 +1,25 @@
+session_name: "SIM-LPU"
+
+windows:
+  - layout: main-vertical
+    start_directory: "~/projects/reksa/SIM-LPU/backend/"
+    panes:
+      - shell_command:
+          - nvim
+    window_name: backend
+  - layout: main-vertical
+    start_directory: "~/projects/reksa/SIM-LPU/frontend/"
+    panes:
+      - shell_command:
+          - nvim
+    window_name: frontend
+
+  - layout: main-vertical
+    panes:
+      - start_directory: "~/projects/reksa/SIM-LPU/frontend/"
+        shell_command:
+          - npm run dev
+      - start_directory: "~/projects/reksa/SIM-LPU/backend/"
+        shell_command:
+          - php artisan serve
+    window_name: Server

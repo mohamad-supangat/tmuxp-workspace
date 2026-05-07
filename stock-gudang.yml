@@ -1,0 +1,14 @@
+session_name: Stock Gudang
+start_directory: "~/projects/asd/stock-barang/"
+
+windows:
+  - layout: main-vertical
+    panes:
+      - shell_command:
+          - nvim
+    window_name: Editor
+  - layout: main-vertical
+    panes:
+      - shell_command: php artisan serve
+      - shell_command: bun run dev
+    window_name: Runner

@@ -1,0 +1,13 @@
+session_name: Event
+start_directory: "~/projects/asd/aura-events/"
+
+windows:
+  - layout: main-vertical
+    panes:
+      - shell_command:
+          - nvim
+    window_name: Editor
+  - layout: main-vertical
+    panes:
+      - shell_command: composer dev
+    window_name: Runner

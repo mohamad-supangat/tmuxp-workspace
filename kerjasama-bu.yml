@@ -10,5 +10,7 @@ windows:
   - layout: main-vertical
     panes:
       - shell_command:
-          - PHP_CLI_SERVER_WORKERS=20 php artisan serve
+          - php artisan serve
+      - shell_command:
+          - bun --bun dev
     window_name: Runner

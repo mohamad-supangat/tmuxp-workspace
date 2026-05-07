@@ -11,7 +11,7 @@ windows:
     panes:
       - shell_command:
           - docker start mariadb-db-1 postgresq-adminer-1
-          - bun run dev
+          - bun --bun run dev
       - shell_command:
         # - php artisan serve
           - frankenphp run

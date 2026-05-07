@@ -1,5 +1,5 @@
 session_name: "Crypto Binance Future"
-start_directory: "~/projects/asd/binance-future-bot/"
+start_directory: "~/projects/asd/binance-future-py/"
 
 windows:
   - layout: main-vertical

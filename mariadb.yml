@@ -5,4 +5,4 @@ windows:
   - layout: main-vertical
     panes:
       - shell_command:
-          - docker start mariadb-db-1 postgresql-adminer-1
+          - docker start mariadb-db-1 adminer-adminer-1

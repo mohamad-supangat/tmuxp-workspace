@@ -1,0 +1,9 @@
+session_name: "SIM-LPU Mobile"
+start_directory: "~/projects/reksa/SIM-LPU/id.komdigi.verifikasilpu/"
+
+windows:
+  - layout: main-vertical
+    panes:
+      - shell_command:
+          - nvim
+    window_name: Editor
